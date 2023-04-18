@@ -8,7 +8,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: #ECECEC;
   --container-color: #fff;
 
   --body-font: "Poppins", sans-serif;
@@ -131,6 +131,7 @@ img {
   max-width: 986px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4rem;
 }
 
 .grid {
@@ -141,15 +142,15 @@ img {
 /*Buttons*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: #2E2E2E;
+  color: #fff;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #141414;
 }
 
 .button__icon {
@@ -161,7 +162,7 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1028px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -176,8 +177,14 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    margin: 0 0 var(--header-height);
+  }
   .section{
-    padding: 2rem 0 4 rem;
+    padding: 2rem 0 4rem;
+  }
+  .section__subtitle{
+    margin-bottom: var(--mb-3);
   }
 }
 
