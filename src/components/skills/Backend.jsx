@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Backend() {
+const Backend = () => {
     return (
         <div className="skills__content">
             <h3 className="skills__title">Backend Developer</h3>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-function Data() {
+const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
@@ -10,7 +10,7 @@ function Data() {
         <p className="home__description">Recently graduated from Computer Systems Engineering 
         and Junior Developer</p>
         <a href="#contact" className="button button--flex">
-        <i class='bx bx-smile home__icon'></i> Say Hello 
+        <i className='bx bx-smile home__icon'></i> Say Hello 
         </a>
         
     </div>

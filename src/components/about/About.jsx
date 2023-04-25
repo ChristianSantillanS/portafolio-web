@@ -3,7 +3,7 @@ import "./About.css";
 import AboutImg from "../../assets/About.jpg";
 import CV from "../../assets/Christian-Cv.pdf";
 import Info from './Info';
-function About() {
+const About = () => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About me</h2>
@@ -19,12 +19,11 @@ function About() {
                 </p>
                 <br/>
                 <a download="" href={CV} 
-                className="button button--flex"><i class='bx bxs-file-pdf about__icon2' ></i>Download CV</a>
+                className="button button--flex"><i className='bx bxs-file-pdf about__icon2' ></i>Download CV</a>
             </div>
 
         </div>
     </section>
   )
 }
-
-export default About
+export default About;

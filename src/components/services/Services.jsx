@@ -7,8 +7,8 @@ const Services = () =>{
   }
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My technical level</span>
+      <h2 className="section__title">Services</h2>
+      <span className="section__subtitle">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</span>
       <div className="services__container container grid">
         <div className="services__content">
           <div>
